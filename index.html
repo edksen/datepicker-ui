@@ -10,11 +10,68 @@
         <h1 class="font-main header-text-size main-text-color center-element" style="margin-top: 5%;">Datepicker Example</h1>
         <div id="date-field" class="colored-area center-element" style="width: 250px; height: 45px;">
             <input id="date-input" class="font-calendar main-text-size main-text-color input-style" style="width: 200px; height: 100%;" placeholder="dd/mm/yyyy" maxlength="10" pattern="^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$">
-            <button id="calendar-open-button" class="calendar-button center-element" style="width: 50px; height: 45px">
-                <svg class="calendar-icon" aria-hidden="true">
+            <button id="calendar-open-button" class="calendar-button center-element" style="width: 50px; height: 45px;">
+                <svg class="calendar-icon calendar-icon-full-size" aria-hidden="true">
                     <use href="/assets/calendar-svgrepo-com.svg" width="100%" height="100%"/>
                 </svg>
             </button>
+        </div>
+        <div id="calendar-field" class="colored-area" style="width: 250px; height: 300px; margin-top: 10px;">
+            <div id="choice-field-area" class="center-element" style="height: 15%; margin: .5% .5%;">
+                <button id="calendar-arrow-left" class="calendar-button center-element" style="width: 50px; height: 45px;">
+                    <svg class="calendar-icon calendar-icon-mid-size" style="rotate: 180deg;" aria-hidden="true">
+                        <use href="/assets/arrow7-svgrepo-com.svg" width="100%" height="100%"/>
+                    </svg>
+                </button>
+                <button id="date-field" class="calendar-element-selectable main-text-size main-text-color font-calendar center-element" style="width: 60%; height: 99%;">April 2026</button>
+                <button id="calendar-arrow-right" class="calendar-button center-element" style="width: 50px; height: 45px">
+                    <svg class="calendar-icon calendar-icon-mid-size" aria-hidden="true">
+                        <use href="/assets/arrow7-svgrepo-com.svg" width="100%" height="100%"/>
+                    </svg>
+                </button>
+            </div>
+            <div id="week-field" class="calendar" style="height: 15%;">
+                <div class="calendar-cell calendar-cell-borded main-text-size main-text-color font-calendar">M</div>
+                <div class="calendar-cell calendar-cell-borded main-text-size main-text-color font-calendar">T</div>
+                <div class="calendar-cell calendar-cell-borded main-text-size main-text-color font-calendar">W</div>
+                <div class="calendar-cell calendar-cell-borded main-text-size main-text-color font-calendar">T</div>
+                <div class="calendar-cell calendar-cell-borded main-text-size main-text-color font-calendar">F</div>
+                <div class="calendar-cell calendar-cell-borded main-text-size main-text-color font-calendar">S</div>
+                <div class="calendar-cell calendar-cell-borded main-text-size main-text-color font-calendar">S</div>
+            </div>
+            <div id="dates-area" class="calendar" style="height: 70%;">
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">1</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">2</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">3</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">4</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">5</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">6</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">7</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">8</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">9</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">10</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">11</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">12</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">13</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">14</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">15</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">16</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">17</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">18</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">19</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">20</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">21</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">22</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">23</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">24</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">25</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">26</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">27</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">27</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">29</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">30</button>
+                <button class="main-text-size main-text-color font-calendar calendar-cell calendar-element-selectable">31</button>
+            </div>
         </div>
     </body>
 </html>
